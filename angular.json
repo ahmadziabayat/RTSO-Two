@@ -27,9 +27,35 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              // "src/styles.scss",
+              "./node_modules/@nebular/theme/styles/prebuilt/default.css", // or default.css
+               "./node_modules/@nebular/theme/styles/prebuilt/cosmic.css", // or cosmic.css
+                "./node_modules/@nebular/theme/styles/prebuilt/corporate.css", // or corporate.css
+
+                "node_modules/bootstrap/dist/css/bootstrap.css",
+                "node_modules/typeface-exo/index.css",
+                "node_modules/roboto-fontface/css/roboto/roboto-fontface.css",
+                "node_modules/ionicons/scss/ionicons.scss",
+                "node_modules/@fortawesome/fontawesome-free/css/all.css",
+                "node_modules/socicon/css/socicon.css",
+                "node_modules/nebular-icons/scss/nebular-icons.scss",
+                "node_modules/angular-tree-component/dist/angular-tree-component.css",
+                "node_modules/pace-js/templates/pace-theme-flash.tmpl.css",
+                "node_modules/leaflet/dist/leaflet.css",
+                "src/app/@theme/styles/styles.scss"
+                
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/pace-js/pace.min.js",
+              "node_modules/tinymce/tinymce.min.js",
+              "node_modules/tinymce/themes/modern/theme.min.js",
+              "node_modules/tinymce/plugins/link/plugin.min.js",
+              "node_modules/tinymce/plugins/paste/plugin.min.js",
+              "node_modules/tinymce/plugins/table/plugin.min.js",
+              "node_modules/echarts/dist/echarts.min.js",
+              "node_modules/echarts/dist/extension/bmap.min.js",
+              "node_modules/chart.js/dist/Chart.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -83,9 +109,27 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
-              "src/styles.scss"
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/typeface-exo/index.css",
+              "node_modules/roboto-fontface/css/roboto/roboto-fontface.css",
+              "node_modules/ionicons/scss/ionicons.scss",
+              "node_modules/font-awesome/scss/font-awesome.scss",
+              "node_modules/socicon/css/socicon.css",
+              "node_modules/nebular-icons/scss/nebular-icons.scss",
+              "node_modules/pace-js/templates/pace-theme-flash.tmpl.css",
+              "src/app/@theme/styles/styles.scss"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/pace-js/pace.min.js",
+              "node_modules/tinymce/tinymce.min.js",
+              "node_modules/tinymce/themes/modern/theme.min.js",
+              "node_modules/tinymce/plugins/link/plugin.min.js",
+              "node_modules/tinymce/plugins/paste/plugin.min.js",
+              "node_modules/tinymce/plugins/table/plugin.min.js",
+              "node_modules/echarts/dist/echarts.min.js",
+              "node_modules/echarts/dist/extension/bmap.min.js",
+              "node_modules/chart.js/dist/Chart.min.js"
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
