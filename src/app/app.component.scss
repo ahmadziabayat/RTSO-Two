@@ -1,0 +1,18 @@
+:host nb-layout-column {
+      height: 80%;
+      width : 100%;
+    }
+    :host nb-layout-column:first-child {
+      width : 20%;
+      background: #e3e6f9;
+    }
+
+    :host nb-layout-column:nth-child(2) {
+      width : 60%;
+     background: #edeef7;
+    }
+
+    :host nb-layout-column:last-child {
+      width : 20%;
+    background: #f4f4f7;
+    }
