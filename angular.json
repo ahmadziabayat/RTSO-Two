@@ -27,10 +27,10 @@
               "src/assets"
             ],
             "styles": [
-              // "src/styles.scss",
-              "./node_modules/@nebular/theme/styles/prebuilt/default.css", // or default.css
-               "./node_modules/@nebular/theme/styles/prebuilt/cosmic.css", // or cosmic.css
-                "./node_modules/@nebular/theme/styles/prebuilt/corporate.css", // or corporate.css
+           
+              "./node_modules/@nebular/theme/styles/prebuilt/default.css", 
+               "./node_modules/@nebular/theme/styles/prebuilt/cosmic.css",
+                "./node_modules/@nebular/theme/styles/prebuilt/corporate.css", 
 
                 "node_modules/bootstrap/dist/css/bootstrap.css",
                 "node_modules/typeface-exo/index.css",
@@ -42,8 +42,9 @@
                 "node_modules/angular-tree-component/dist/angular-tree-component.css",
                 "node_modules/pace-js/templates/pace-theme-flash.tmpl.css",
                 "node_modules/leaflet/dist/leaflet.css",
+                  "node_modules/jquery-ui/themes/base/all.css",
                 "src/app/@theme/styles/styles.scss"
-                
+
             ],
             "scripts": [
               "node_modules/pace-js/pace.min.js",
@@ -54,7 +55,12 @@
               "node_modules/tinymce/plugins/table/plugin.min.js",
               "node_modules/echarts/dist/echarts.min.js",
               "node_modules/echarts/dist/extension/bmap.min.js",
-              "node_modules/chart.js/dist/Chart.min.js"
+              "node_modules/chart.js/dist/Chart.min.js",
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/jquery-ui/ui/jquery-1-7.js",
+
+              "node_modules/split.js/dist/split.js"
+
             ]
           },
           "configurations": {

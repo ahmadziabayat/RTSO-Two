@@ -1,18 +1,33 @@
 :host nb-layout-column {
       height: 80%;
-      width : 100%;
-    }
-    :host nb-layout-column:first-child {
-      width : 20%;
-      background: #e3e6f9;
+      // width : 100%;
     }
 
-    :host nb-layout-column:nth-child(2) {
-      width : 60%;
-     background: #edeef7;
-    }
+  .columnHeight{
+    height: 100%;
+    // width: auto;
 
-    :host nb-layout-column:last-child {
-      width : 20%;
-    background: #f4f4f7;
-    }
+  }
+
+  .fullHeightWidth {
+    height: 20%;
+    // width: auto;
+  }
+
+  .resizeElement {
+    resize: both;
+  }
+
+  #one{
+     background:red;
+
+   }
+   #two{
+     background:green;
+   }
+   #three{
+     background:blue;
+   }
+  #four{
+    background: yellow;
+  }

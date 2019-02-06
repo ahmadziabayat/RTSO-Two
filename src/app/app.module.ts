@@ -10,24 +10,28 @@ import { MenuListComponent } from './menu-list/menu-list.component';
 import { ThemeModule } from './@theme/theme.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
+import {ResizableModule} from 'angular-resizable-element';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuListComponent
+    MenuListComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    ResizableModule,
     NbThemeModule.forRoot({ name: 'default' }),
     NbLayoutModule,
     NbSidebarModule.forRoot(),
 
     ThemeModule.forRoot(),
     NgbModule.forRoot(),
+
+
 
 
   ],
